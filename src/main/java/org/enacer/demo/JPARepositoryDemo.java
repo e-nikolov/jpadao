@@ -2,7 +2,7 @@ package org.enacer.demo;
 
 import org.enacer.jpadao.Identifiable;
 import org.enacer.jpadao.Repository;
-import org.enacer.jpadao.opt.Option;
+import org.enacer.opt.Option;
 
 import javax.inject.Inject;
 import java.util.List;

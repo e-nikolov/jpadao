@@ -1,4 +1,4 @@
-package org.enacer.jpadao.opt;
+package org.enacer.opt;
 
 /**
  * todo
