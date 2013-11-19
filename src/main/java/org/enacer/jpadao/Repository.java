@@ -1,4 +1,6 @@
-package util.jpa;
+package org.enacer.jpadao;
+
+import org.enacer.jpadao.impl.opt.Option;
 
 import java.util.List;
 
@@ -10,11 +12,21 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public interface Repository<T extends Identifiable<T>> {
-	Long insert(T item);
+	Long insert(T t);
 
 	List<T> getAll();
 
 	List<T> getAll(String orderBy);
 
 	Option<T> get(long id);
+
+	void update(T t);
+
+	void remove(T t);
+
+	boolean exists(String columnName, String value);
+
+	Option<T> get(String columnName, String value);
+
+	List<T> getList(String columnName, String value);
 }

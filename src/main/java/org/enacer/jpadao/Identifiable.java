@@ -1,4 +1,4 @@
-package util.jpa;
+package org.enacer.jpadao;
 
 /**
  * Created with IntelliJ IDEA.
