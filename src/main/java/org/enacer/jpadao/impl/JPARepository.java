@@ -2,9 +2,9 @@ package org.enacer.jpadao.impl;
 
 import org.enacer.jpadao.Identifiable;
 import org.enacer.jpadao.Repository;
-import org.enacer.jpadao.impl.opt.None;
-import org.enacer.jpadao.impl.opt.Option;
-import org.enacer.jpadao.impl.opt.Some;
+import org.enacer.jpadao.opt.None;
+import org.enacer.jpadao.opt.Option;
+import org.enacer.jpadao.opt.Some;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

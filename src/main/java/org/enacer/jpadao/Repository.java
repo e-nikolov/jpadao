@@ -1,6 +1,6 @@
 package org.enacer.jpadao;
 
-import org.enacer.jpadao.impl.opt.Option;
+import org.enacer.jpadao.opt.Option;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.enacer.jpadao.impl.opt;
+package org.enacer.jpadao.opt;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
