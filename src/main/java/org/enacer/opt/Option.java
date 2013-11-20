@@ -3,6 +3,10 @@ package org.enacer.opt;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
+/**
+* With permission from http://www.edc4it.com/2011/08/02/a-scala-style-option-class-for-java/
+*
+*/
 public class Option<T> {
 
 	private T value;
