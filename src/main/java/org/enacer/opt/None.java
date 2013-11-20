@@ -1,8 +1,9 @@
 package org.enacer.opt;
 
 /**
- * todo
- */
+* With permission from [http://www.edc4it.com/2011/08/02/a-scala-style-option-class-for-java/](http://www.edc4it.com/2011/08/02/a-scala-style-option-class-for-java/) 
+*
+*/
 public class None<T> extends Option<T> {
 
 	private static None instance = new None();
